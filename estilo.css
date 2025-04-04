@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 
-/* .texto {
+/* /* .texto {
     margin: 20px;
 }
 
@@ -60,7 +60,7 @@ button:hover{
     }
 } */
 
-.bg-modal{
+/* .bg-modal{
     background: rgb(0,0,0,0.7);
     position: absolute;
     width: 100%;
@@ -80,4 +80,4 @@ button:hover{
 .button{
     padding: 5px 30px;
     margin: 10px;
-}
+} */
