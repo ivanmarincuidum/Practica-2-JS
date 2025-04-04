@@ -1,6 +1,6 @@
 "use strict";
 
-this.nombre= "dalto";
+this.nombre= "Dalto";
 
 function saludar(){
     console.log(`Hola ${this.nombre}`);
@@ -8,7 +8,18 @@ function saludar(){
 
 const objeto = {
     nombre: "Lucas",
-    saludar: console.log(`Hola ${this.nombre}`);
+    saludar
 }
 
+function otroContext(){
+    this.nombre = "Roberto";
+    this.saludar = saludar;
+}
+
+const objeto2 = new otroContext();
+
 objeto.saludar()
+
+objeto2.saludar()
+
+console.log(this.nombre)
